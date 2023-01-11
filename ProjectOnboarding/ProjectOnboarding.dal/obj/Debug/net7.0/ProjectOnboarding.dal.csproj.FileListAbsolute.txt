@@ -1,0 +1,12 @@
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\bin\Debug\net7.0\ProjectOnboarding.dal.deps.json
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\bin\Debug\net7.0\ProjectOnboarding.dal.dll
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\bin\Debug\net7.0\ProjectOnboarding.dal.pdb
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\obj\Debug\net7.0\ProjectOnboarding.dal.csproj.AssemblyReference.cache
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\obj\Debug\net7.0\ProjectOnboarding.dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\obj\Debug\net7.0\ProjectOnboarding.dal.AssemblyInfoInputs.cache
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\obj\Debug\net7.0\ProjectOnboarding.dal.AssemblyInfo.cs
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\obj\Debug\net7.0\ProjectOnboarding.dal.csproj.CoreCompileInputs.cache
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\obj\Debug\net7.0\ProjectOnboarding.dal.dll
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\obj\Debug\net7.0\refint\ProjectOnboarding.dal.dll
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\obj\Debug\net7.0\ProjectOnboarding.dal.pdb
+C:\Kerja\Onboarding\onboarding\ProjectOnboarding\ProjectOnboarding.dal\obj\Debug\net7.0\ref\ProjectOnboarding.dal.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ProjectOnboarding.bll/1.0.0": {
+        "dependencies": {
+          "ProjectOnboarding.dal": "1.0.0"
+        },
+        "runtime": {
+          "ProjectOnboarding.bll.dll": {}
+        }
+      },
+      "ProjectOnboarding.dal/1.0.0": {
+        "runtime": {
+          "ProjectOnboarding.dal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjectOnboarding.bll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectOnboarding.dal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
