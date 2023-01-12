@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OB-Net-Core-Tutorial.props" />
+</Project>
