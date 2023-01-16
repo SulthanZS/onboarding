@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7EwzuMMkDSyr4i+ggELRmYHsxtkE5QfHsmFdLQfcyqD3uApoOVU0Alfq5kbOhUyAilo+pz8AnOFLdvg8cuz9ow==",
+  "dgSpecHash": "IkQd4dhu3eb7kUtjWZartuFBbaPBe5wU7DBpgS/C+Nych70FqbHlT3YVflIVqKzero60HJZLI/34b9XcDl68xQ==",
   "success": true,
   "projectFilePath": "C:\\Kerja\\Onboarding\\onboarding\\Day 2\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nimal\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\nimal\\.nuget\\packages\\automapper.collection\\9.0.0\\automapper.collection.9.0.0.nupkg.sha512",
     "C:\\Users\\nimal\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\nimal\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\nimal\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",

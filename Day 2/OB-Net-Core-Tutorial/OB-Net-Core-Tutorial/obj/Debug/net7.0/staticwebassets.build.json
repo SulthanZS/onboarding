@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GEaxD/lyrU+TwyPhKm5EsdtFKiMCxpof6AKCwNEVIOg=",
+  "Hash": "gCP0HmTOg4mRiB/8wh7V5lMs/OFyO0CeSHrh5toQvUw=",
   "Source": "OB-Net-Core-Tutorial",
   "BasePath": "_content/OB-Net-Core-Tutorial",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Kerja\\Onboarding\\onboarding\\Day 2\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial\\obj\\Debug\\net7.0\\scopedcss\\bundle\\OB-Net-Core-Tutorial.styles.css",
-      "SourceId": "OB-Net-Core-Tutorial",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Kerja\\Onboarding\\onboarding\\Day 2\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/OB-Net-Core-Tutorial",
-      "RelativePath": "OB-Net-Core-Tutorial.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Kerja\\Onboarding\\onboarding\\Day 2\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial\\obj\\Debug\\net7.0\\scopedcss\\bundle\\OB-Net-Core-Tutorial.styles.css"
-    },
-    {
-      "Identity": "C:\\Kerja\\Onboarding\\onboarding\\Day 2\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OB-Net-Core-Tutorial.bundle.scp.css",
-      "SourceId": "OB-Net-Core-Tutorial",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Kerja\\Onboarding\\onboarding\\Day 2\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/OB-Net-Core-Tutorial",
-      "RelativePath": "OB-Net-Core-Tutorial.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Kerja\\Onboarding\\onboarding\\Day 2\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OB-Net-Core-Tutorial.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Kerja\\Onboarding\\onboarding\\Day 2\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial\\wwwroot\\css\\site.css",
       "SourceId": "OB-Net-Core-Tutorial",

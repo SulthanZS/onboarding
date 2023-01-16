@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "OB-Net-Core-Tutorial/1.0.0": {
         "dependencies": {
+          "AutoMapper.Collection": "9.0.0",
           "Microsoft.AspNetCore.Razor": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.2",
@@ -26,6 +27,28 @@
         },
         "runtime": {
           "OB-Net-Core-Tutorial.dll": {}
+        }
+      },
+      "AutoMapper/12.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
+        }
+      },
+      "AutoMapper.Collection/9.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Collection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
         }
       },
       "Azure.Core/1.24.0": {
@@ -2505,6 +2528,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
+      "path": "automapper/12.0.0",
+      "hashPath": "automapper.12.0.0.nupkg.sha512"
+    },
+    "AutoMapper.Collection/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tFsFFNrf1Z3TBi8XqAlKWemjYeUyaoiNqCPXsCatVZXd3sC/HCF0/tIkld6GBljF2oPZTO+EckyMGZh1jn85zQ==",
+      "path": "automapper.collection/9.0.0",
+      "hashPath": "automapper.collection.9.0.0.nupkg.sha512"
     },
     "Azure.Core/1.24.0": {
       "type": "package",

@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Kerja\\Onboarding\\onboarding\\Day 2\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OB-Net-Core-Tutorial.bundle.scp.css",
-      "PackagePath": "staticwebassets\\OB-Net-Core-Tutorial.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Kerja\\Onboarding\\onboarding\\Day 2\\OB-Net-Core-Tutorial\\OB-Net-Core-Tutorial\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

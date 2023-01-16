@@ -8,13 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\**" />
     <Compile Remove="NewFolder - Copy\**" />
+    <Content Remove="Migrations\**" />
     <Content Remove="NewFolder - Copy\**" />
+    <EmbeddedResource Remove="Migrations\**" />
     <EmbeddedResource Remove="NewFolder - Copy\**" />
+    <None Remove="Migrations\**" />
     <None Remove="NewFolder - Copy\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Collection" Version="9.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="7.0.2" />
@@ -36,10 +41,6 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>
