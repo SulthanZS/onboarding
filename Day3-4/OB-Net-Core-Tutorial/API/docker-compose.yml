@@ -1,7 +1,0 @@
-﻿version: '3'
-services:
-
-    service:
-        build:
-            context: ../ #project_folder for this case
-            dockerfile: ./Dockerfile
