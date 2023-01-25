@@ -7,19 +7,19 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["API/API.csproj", "API/"]
-COPY ["BLL/BLL.csproj", "BLL/"]
-COPY ["DAL/DAL.csproj", "DAL/"]
-COPY ["BLL.TEST/BLL.TEST.csproj", "BLL.TEST/"]
-COPY ["ListenerProject/ListenerProject.csproj", "ListenerProject/"]
-COPY ["QuartzProject/QuartzProject.csproj", "QuartzProject/"]
-RUN dotnet restore "API/API.csproj"
+COPY API/*.csproj ./API/
+COPY BLL/*.csproj ./BLL/
+COPY BLL.Test/*.csproj ./BLL.Test/
+COPY DAL/*.csproj ./DAL/
+COPY ListenerProject/*.csproj ./ListenerProject/
+COPY QuartzProject/*.csproj ./QuartzProject/
+RUN dotnet restore
 COPY . .
 WORKDIR "/src/API"
-RUN dotnet build "API.csproj" -c Release -o /app/build
+RUN dotnet build -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "API.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
