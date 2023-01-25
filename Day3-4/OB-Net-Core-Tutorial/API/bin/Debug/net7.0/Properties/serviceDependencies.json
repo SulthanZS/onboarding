@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:OB_Net_Core_TutorialContext"
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "redis1": {
+      "type": "redis",
+      "connectionId": "AzureRedisCacheConnection",
+      "dynamicId": null
+    },
+    "appInsights1": {
+      "type": "appInsights",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+      "dynamicId": null
+    }
+  }
+}

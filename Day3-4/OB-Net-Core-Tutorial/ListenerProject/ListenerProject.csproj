@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\ListenerProject.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\ListenerProject.GlobalUsings.g.cs" />
+    <Compile Include="obj\Release\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net7.0\ListenerProject.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net7.0\ListenerProject.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\ListenerProject.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net7.0\ListenerProject.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\ListenerProject.assets.cache" />
+    <None Include="obj\Debug\net7.0\ListenerProject.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\ListenerProject.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\ListenerProject.csproj.nuget.g.props" />
+    <None Include="obj\ListenerProject.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net7.0\ListenerProject.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net7.0\ListenerProject.assets.cache" />
+    <None Include="obj\Release\net7.0\ListenerProject.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\net7.0\ListenerProject.GeneratedMSBuildEditorConfig.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net7.0\" />
+    <Folder Include="bin\Release\net7.0\" />
+    <Folder Include="obj\Debug\net7.0\refint\" />
+    <Folder Include="obj\Debug\net7.0\ref\" />
+    <Folder Include="obj\Debug\net7.0\staticwebassets\" />
+    <Folder Include="obj\Release\net7.0\refint\" />
+    <Folder Include="obj\Release\net7.0\ref\" />
+    <Folder Include="obj\Release\net7.0\staticwebassets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.7.5" />
+    <PackageReference Include="Azure.Messaging.EventHubs.Processor" Version="5.7.5" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
+
+</Project>

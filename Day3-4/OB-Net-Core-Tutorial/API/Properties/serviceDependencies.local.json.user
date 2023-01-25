@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "redis1": {
+      "restored": true,
+      "restoreTime": "2023-01-17T16:08:59.0847013Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-01-12T03:14:49.0847395Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2023-01-17T16:08:51.0503989Z"
+    },
+    "appInsights1": {
+      "restored": true,
+      "restoreTime": "2023-01-19T16:17:06.3957163Z"
+    }
+  },
+  "parameters": {
+    "appInsights1.resourceGroupName": {
+      "Name": "appInsights1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "RG-Onboarding"
+    },
+    "redis1.resourceGroupName": {
+      "Name": "redis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "RG-Onboarding"
+    },
+    "appInsights1.subscriptionId": {
+      "Name": "appInsights1.subscriptionId",
+      "Type": "subscription",
+      "Value": "fe033e3d-a18c-44f0-b770-45daec59eaf3"
+    },
+    "redis1.subscriptionId": {
+      "Name": "redis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "fe033e3d-a18c-44f0-b770-45daec59eaf3"
+    }
+  }
+}
