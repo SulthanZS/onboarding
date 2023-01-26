@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 #COPY ["OB-Net-Core-Tutorial.sln", "."]
-COPY ["API.csproj", "API/"]
+COPY ["./API/API.csproj", "API/"]
 COPY ["./BLL/BLL.csproj", "BLL/"]
 COPY ["./DAL/DAL.csproj", "DAL/"]
 COPY ["./BLL.TEST/BLL.TEST.csproj", "BLL.TEST/"]
