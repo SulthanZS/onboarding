@@ -14,7 +14,7 @@ COPY ["./Day3-4/OB-Net-Core-Tutorial/BLL.TEST/BLL.TEST.csproj", "BLL.TEST/"]
 COPY ["./Day3-4/OB-Net-Core-Tutorial/ListenerProject/ListenerProject.csproj", "ListenerProject/"]
 COPY ["./Day3-4/OB-Net-Core-Tutorial/QuartzProject/QuartzProject.csproj", "QuartzProject/"]
 RUN dotnet restore "API/API.csproj"
-COPY . .
+COPY ["./Day3-4/OB-Net-Core-Tutorial", "."]
 
 RUN dotnet build "API/API.csproj" -c Release -o /app/build
 
