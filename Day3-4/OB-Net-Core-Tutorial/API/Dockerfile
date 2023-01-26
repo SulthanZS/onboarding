@@ -6,7 +6,7 @@ EXPOSE 80
 EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
-COPY *.sln .
+COPY OB-Net-Core-Tutorial.sln .
 COPY *.csproj ./API/
 COPY BLL/*.csproj ./BLL/
 COPY BLL.Test/*.csproj ./BLL.Test/
