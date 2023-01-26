@@ -7,12 +7,12 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 #COPY ["OB-Net-Core-Tutorial.sln", "."]
-COPY ["./API/API.csproj", "API/"]
-COPY ["./BLL/BLL.csproj", "BLL/"]
-COPY ["./DAL/DAL.csproj", "DAL/"]
-COPY ["./BLL.TEST/BLL.TEST.csproj", "BLL.TEST/"]
-COPY ["./ListenerProject/ListenerProject.csproj", "ListenerProject/"]
-COPY ["./QuartzProject/QuartzProject.csproj", "QuartzProject/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/API/API.csproj", "API/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/BLL/BLL.csproj", "BLL/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/DAL/DAL.csproj", "DAL/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/BLL.TEST/BLL.TEST.csproj", "BLL.TEST/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/ListenerProject/ListenerProject.csproj", "ListenerProject/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/QuartzProject/QuartzProject.csproj", "QuartzProject/"]
 RUN dotnet restore "API/API.csproj"
 COPY . .
 WORKDIR "/src/API"
