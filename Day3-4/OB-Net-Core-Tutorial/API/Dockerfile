@@ -6,7 +6,7 @@ EXPOSE 80
 EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
-#COPY ["OB-Net-Core-Tutorial.sln", "."]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/OB-Net-Core-Tutorial.sln", "."]
 COPY ["./Day3-4/OB-Net-Core-Tutorial/API/API.csproj", "API/"]
 COPY ["./Day3-4/OB-Net-Core-Tutorial/BLL/BLL.csproj", "BLL/"]
 COPY ["./Day3-4/OB-Net-Core-Tutorial/DAL/DAL.csproj", "DAL/"]
