@@ -17,7 +17,14 @@ COPY ["./Day3-4/OB-Net-Core-Tutorial/ListenerProject/ListenerProject.csproj", "L
 COPY ["./Day3-4/OB-Net-Core-Tutorial/QuartzProject/QuartzProject.csproj", "QuartzProject/"]
 RUN dotnet restore "API/API.csproj"
 
-WORKDIR "/src/API"
+COPY ["./Day3-4/OB-Net-Core-Tutorial/API", "API/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/BLL", "BLL/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/DAL", "DAL/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/BLL.TEST", "BLL.TEST/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/ListenerProject", "ListenerProject/"]
+COPY ["./Day3-4/OB-Net-Core-Tutorial/QuartzProject", "QuartzProject/"]
+
+WORKDIR /src/API
 RUN dotnet build "API.csproj" -c Release -o /app/build
 
 FROM build AS publish
