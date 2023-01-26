@@ -17,8 +17,6 @@ COPY ["./Day3-4/OB-Net-Core-Tutorial/ListenerProject/ListenerProject.csproj", "L
 COPY ["./Day3-4/OB-Net-Core-Tutorial/QuartzProject/QuartzProject.csproj", "QuartzProject/"]
 RUN dotnet restore "API/API.csproj"
 
-WORKDIR "/src/API"
-
 RUN dotnet build "API/API.csproj" -c Release -o /app/build
 
 FROM build AS publish
