@@ -47,6 +47,8 @@ metadata:
 spec:
   ports:
   - port: 80
+  externalIPs:
+   - 1.2.4.114
   type: LoadBalancer
   selector:
     app: api
